@@ -6,7 +6,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="/assets/img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Login Page - Now Ui Kit by Creative Tim</title>
+    <title>Login Page - The Beautiful Brainsys Manager</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
@@ -21,6 +21,7 @@
         <div class="container">
             <div class="col-md-4 content-center">
                 <div class="card card-login card-plain">
+                    <h4>The Beautiful Brainsys Manager</h4>
                     <form id="loginForm" class="form">
                         <div class="header header-primary text-center">
                             <div class="logo-container">
@@ -99,10 +100,14 @@
                 method:"POST",
                 url:"<?php echo base_url() ?>"+url,
                 data:dataString,
-                dataType:"text",
+                dataType:"json",
                 success:function (data) {
-                    $('#form-submit-button').attr("data-content", data)
-                    $('#form-submit-button').popover('show')
+                    if (data.auth == false) {
+                        $('#form-submit-button').attr("data-content", data.msg)
+                        $('#form-submit-button').popover('show')
+                    } else {
+                        window.location.href = data.dest
+                    }
                 }
             })
         })

@@ -21,22 +21,30 @@ class Login extends CI_Controller
 		$this->form_validation->set_rules('pass','Password', 'trim|required|min_length[8]');
 
 		if ($this->form_validation->run() == FALSE) {
-			echo $this->form_validation->error_string();
-			return false;
+			$return = array('auth' => FALSE, 'msg' => $this->form_validation->error_string(), 'dest' => '');
+			echo json_encode($return);
+			return FALSE;
 		}
 
-		if ($this->checkCredentials($_POST['login'], $_POST['pass']))
-		{
-			echo "OK";
-			return true;
+		if ($this->checkCredentials($_POST['login'], $_POST['pass'])) {
+			$return = array('auth' => TRUE, 'msg' => '', 'dest' => base_url('/service'));
+			echo json_encode($return);
+			return TRUE;
 		}
-		else echo "Unknown User/Pass. Try again...";
-		return false;
+		else {
+			$return = array('auth' => FALSE, 'msg' => 'Unknown User/Pass. Try again...', 'dest' => '');
+			echo json_encode($return);
+			return FALSE;
+		}
 	}
 
 	private function checkCredentials($login, $pass)
 	{
-		log_message('debug', 'test');
-		return false;
+		if ($login == 'j@w.com') {
+			$this->load->library('session');
+			$_SESSION['Logged'] = TRUE;
+			return TRUE;
+		}
+		return FALSE;
 	}
 }
