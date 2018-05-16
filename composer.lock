@@ -1,0 +1,263 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "3c4344d829d7803e3e56d8de244d8fb6",
+    "content-hash": "60df8dd3a72ef4e58fab4b69c207e52d",
+    "packages": [
+        {
+            "name": "components/jquery",
+            "version": "3.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/jquery.git",
+                "reference": "459648cda77875519c5da3ae1dd0ed5d170aa649"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/jquery/zipball/459648cda77875519c5da3ae1dd0ed5d170aa649",
+                "reference": "459648cda77875519c5da3ae1dd0ed5d170aa649",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "jquery.js"
+                    ],
+                    "files": [
+                        "jquery.min.js",
+                        "jquery.min.map",
+                        "jquery.slim.js",
+                        "jquery.slim.min.js",
+                        "jquery.slim.min.map"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "JS Foundation and other contributors"
+                }
+            ],
+            "description": "jQuery JavaScript Library",
+            "homepage": "http://jquery.com",
+            "time": "2018-03-04 13:23:48"
+        },
+        {
+            "name": "fortawesome/font-awesome",
+            "version": "v4.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FortAwesome/Font-Awesome.git",
+                "reference": "a8386aae19e200ddb0f6845b5feeee5eb7013687"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/a8386aae19e200ddb0f6845b5feeee5eb7013687",
+                "reference": "a8386aae19e200ddb0f6845b5feeee5eb7013687",
+                "shasum": ""
+            },
+            "require-dev": {
+                "jekyll": "1.0.2",
+                "lessc": "1.4.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.6.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OFL-1.1",
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Gandy",
+                    "email": "dave@fontawesome.io",
+                    "homepage": "http://twitter.com/davegandy",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The iconic font and CSS framework",
+            "homepage": "http://fontawesome.io/",
+            "keywords": [
+                "FontAwesome",
+                "awesome",
+                "bootstrap",
+                "font",
+                "icon"
+            ],
+            "time": "2016-10-24 15:52:54"
+        },
+        {
+            "name": "leongersen/nouislider",
+            "version": "11.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/akiyatkin/noUiSlider.git",
+                "reference": "b97db9b2d8af0259cb2b373052618536afa5f4c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/akiyatkin/noUiSlider/zipball/b97db9b2d8af0259cb2b373052618536afa5f4c3",
+                "reference": "b97db9b2d8af0259cb2b373052618536afa5f4c3",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2018-03-18 14:36:03"
+        },
+        {
+            "name": "nostalgiaz/bootstrap-switch",
+            "version": "3.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Bttstrp/bootstrap-switch.git",
+                "reference": "02721b769a6ac83eabe733fd9f08a2ddc7320756"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Bttstrp/bootstrap-switch/zipball/02721b769a6ac83eabe733fd9f08a2ddc7320756",
+                "reference": "02721b769a6ac83eabe733fd9f08a2ddc7320756",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "name": "bootstrap-switch",
+                    "files": [
+                        "dist/**"
+                    ],
+                    "scripts": [
+                        "dist/js/bootstrap-switch.js"
+                    ],
+                    "shim": {
+                        "exports": "BootstrapSwitch"
+                    }
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache License Version 2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Mattia Larentis",
+                    "homepage": "http://www.larentis.eu"
+                }
+            ],
+            "description": "Turn checkboxes and radio buttons into toggle switches.",
+            "homepage": "https://bttstrp.github.io/bootstrap-switch",
+            "keywords": [
+                "JS",
+                "bootstrap",
+                "javascript",
+                "switch"
+            ],
+            "time": "2017-02-25 18:32:28"
+        },
+        {
+            "name": "rcn3rdparty/bootstrap-datepicker-dist",
+            "version": "v1.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RCNdev/bootstrap-datepicker-dist.git",
+                "reference": "d9b74dd70c63e80d6939b85b8edfce6248eb0397"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RCNdev/bootstrap-datepicker-dist/zipball/d9b74dd70c63e80d6939b85b8edfce6248eb0397",
+                "reference": "d9b74dd70c63e80d6939b85b8edfce6248eb0397",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Rowls",
+                    "email": "eternicode@gmail.com"
+                },
+                {
+                    "name": "Community",
+                    "homepage": "https://github.com/uxsolutions/bootstrap-datepicker/contributors"
+                }
+            ],
+            "description": "A datepicker for Bootstrap, distribution version without hideous dependencies",
+            "keywords": [
+                "bootstrap",
+                "datepicker"
+            ],
+            "time": "2018-01-02 19:23:37"
+        },
+        {
+            "name": "twbs/bootstrap",
+            "version": "v4.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "779ad9f174ea5ab7e755f6df0ec9e5912d67dd16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/779ad9f174ea5ab7e755f6df0ec9e5912d67dd16",
+                "reference": "779ad9f174ea5ab7e755f6df0ec9e5912d67dd16",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                },
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "https://getbootstrap.com/",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "mobile-first",
+                "responsive",
+                "sass",
+                "web"
+            ],
+            "time": "2018-04-30 16:04:33"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

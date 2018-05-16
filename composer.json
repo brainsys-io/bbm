@@ -1,0 +1,25 @@
+{
+    "name": "jules/ludo",
+    "description": "BackOffice de gestion des scripts pour Ludo",
+    "type": "project",
+    "require": {
+        "twitter/bootstrap": "^4.1",
+        "fortawesome/font-awesome": "^4.7",
+        "rcn3rdparty/bootstrap-datepicker-dist": "^1.7",
+        "components/jquery": "^3.3",
+        "twbs/bootstrap": "^4.1",
+        "nostalgiaz/bootstrap-switch": "^3.3",
+        "leongersen/nouislider": "^11.0"
+    },
+    "require-dev": {
+        "twitter/bootstrap": "^4.1"
+    },
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Julien Marusi",
+            "email": "julien@marusi.fr"
+        }
+    ],
+    "minimum-stability": "dev"
+}
