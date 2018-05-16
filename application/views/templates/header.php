@@ -6,7 +6,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="/assets/img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Login Page - The Beautiful Brainsys Manager</title>
+    <title>Service Page - The Beautiful Brainsys Manager</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
@@ -18,7 +18,7 @@
 
 <body class="profile-page sidebar-collapse">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-default fixed-top" color-on-scroll="400">
+    <nav class="navbar navbar-expand-lg fixed-top" color-on-scroll="400" style="background-color: #532b28 !important;">
         <div class="container">
             <div class="dropdown button-dropdown">
                 <a href="#pablo" class="dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">
@@ -27,19 +27,15 @@
                     <span class="button-bar"></span>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-header">Dropdown header</a>
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-header">Welcome <?php echo $_SESSION['user']->mail?></a>
+                    <a class="dropdown-item" href="#">Profil</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Separated link</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">One more separated link</a>
+                    <a class="dropdown-item" href="#">Admin</a>
                 </div>
             </div>
             <div class="navbar-translate">
-                <a class="navbar-brand" href="http://demos.creative-tim.com/now-ui-kit/index.html" rel="tooltip" title="Designed by Invision. Coded by Creative Tim" data-placement="bottom" target="_blank">
-                    Now Ui Kit
+                <a class="navbar-brand" href="http://demos.creative-tim.com/now-ui-kit/index.html" rel="tooltip" title="Designed by Invision. Coded by Creative Tim" data-placement="bottom" data-color="popover-warning" target="_blank">
+                The Beautiful Brainsys Manager
                 </a>
                 <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-bar bar1"></span>
@@ -49,34 +45,31 @@
             </div>
             <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="../assets/img/blurred-image-1.jpg">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Back to Kit</a>
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="test" data-toggle="dropdown">test</a>
+                            <ul class="dropdown-menu" aria-labelledby="test">
+                                <a class="dropdown-item" href="#">Profil</a>
+                                <a class="dropdown-item" href="#">Admin</a>
+                            </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/creativetimofficial/now-ui-kit/issues">Have an issue?</a>
+                        <a class="nav-link" href="../index.html">Web</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank">
-                            <i class="fa fa-twitter"></i>
-                            <p class="d-lg-none d-xl-none">Twitter</p>
-                        </a>
+                        <a class="nav-link" href="https://github.com/creativetimofficial/now-ui-kit/issues">Mail</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank">
-                            <i class="fa fa-facebook-square"></i>
-                            <p class="d-lg-none d-xl-none">Facebook</p>
-                        </a>
+                        <a class="nav-link" href="https://github.com/creativetimofficial/now-ui-kit/issues">DNS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank">
-                            <i class="fa fa-instagram"></i>
-                            <p class="d-lg-none d-xl-none">Instagram</p>
-                        </a>
+                        <a class="nav-link" href="https://github.com/creativetimofficial/now-ui-kit/issues">DISCONNECT</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- End Navbar -->
-    <div class="section">
-            <div class="container">
+    <div class="page-header" filter-color="orange">
+        <div class="container">
+            <div class="section">
+                <div class="container">
