@@ -9,5 +9,5 @@ The Beautiful Brainsys Manager
 5) Run migration script within browser: <code>http://bbm/migrate</code>
 
 <b>Running:</b>
-In browser: http://bbm/
-Default admin login: admin@bbm.com / admin
+In browser: <code>http://bbm/</code>
+Default admin login: <code>admin@bbm.com / admin</code>

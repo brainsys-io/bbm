@@ -10,7 +10,7 @@ CREATE TABLE `rights` (
 	PRIMARY KEY(`user_id`)
 );
 
-INSERT INTO `users`(`mail`,`pass`) VALUES ('admin@bbm.com','admin');
+INSERT INTO `users`(`mail`,`pass`) VALUES ('admin@bbm.com','adminadmin');
 INSERT INTO `rights`(`user_id`,`level`) VALUES (1,2);
 
 INSERT INTO `users`(`mail`,`pass`) VALUES ('j@w.com','ptcmba51');
