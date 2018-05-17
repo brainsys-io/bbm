@@ -7,7 +7,9 @@ class Service extends CI_Controller
         parent::__construct();
 
         $this->load->library('session');
-        if ($_SESSION['Logged'] !== TRUE) redirect('/');
+        if ((!isset($_SESSION['Logged'])) || ($_SESSION['Logged'] !== TRUE)) {
+            redirect("/");
+        }
 
         $this->load->database();
 	}

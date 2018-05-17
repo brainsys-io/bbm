@@ -14,6 +14,13 @@ class Login extends CI_Controller
 		$this->load->view('home');
 	}
 
+	public function disconnect()
+	{
+		$this->load->library('session');
+		session_destroy();
+		redirect("/");
+	}
+
 	public function connect()
 	{
 		$this->form_validation->set_error_delimiters('', '');

@@ -46,23 +46,20 @@
             <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="../assets/img/blurred-image-1.jpg">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="test" data-toggle="dropdown">test</a>
+                            <a href="#" class="nav-link dropdown-toggle" id="test" data-toggle="dropdown">WEB</a>
                             <ul class="dropdown-menu" aria-labelledby="test">
-                                <a class="dropdown-item" href="#">Profil</a>
-                                <a class="dropdown-item" href="#">Admin</a>
+                                <a class="dropdown-item" href="#">List Hosted</a>
+                                <a class="dropdown-item" href="#">New Wordpress</a>
                             </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Web</a>
+                        <a class="nav-link" href="#">Mail</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/creativetimofficial/now-ui-kit/issues">Mail</a>
+                        <a class="nav-link" href="#">DNS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/creativetimofficial/now-ui-kit/issues">DNS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/creativetimofficial/now-ui-kit/issues">DISCONNECT</a>
+                        <a class="nav-link" href="/disconnect">DISCONNECT</a>
                     </li>
                 </ul>
             </div>

@@ -10,4 +10,4 @@ The Beautiful Brainsys Manager
 
 <b>Running:</b>
 In browser: <code>http://bbm/</code>
-Default admin login: <code>admin@bbm.com / admin</code>
+Default admin login: <code>admin@bbm.com / adminadmin</code>
