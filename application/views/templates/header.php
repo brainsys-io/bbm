@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height: 100%; margin: 0; padding: 0;">
 
 <head>
     <meta charset="utf-8" />
@@ -16,7 +16,7 @@
     <link href="/assets/css/now-ui-kit.css?v=1.1.0" rel="stylesheet" />
 </head>
 
-<body class="profile-page sidebar-collapse">
+<body class="profile-page sidebar-collapse" style="height: 100%; margin: 0; padding: 0; display : table; width: 100%;">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top" color-on-scroll="400" style="background-color: #532b28 !important;">
         <div class="container">
@@ -48,8 +48,8 @@
                     <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" id="test" data-toggle="dropdown">WEB</a>
                             <ul class="dropdown-menu" aria-labelledby="test">
-                                <a class="dropdown-item" href="#">List Hosted</a>
-                                <a class="dropdown-item" href="#">New Wordpress</a>
+                                <a class="dropdown-item" href="/service/listwebsites">List Hosted</a>
+                                <a class="dropdown-item" href="/service/newsite">New Wordpress</a>
                             </ul>
                     </li>
                     <li class="nav-item">
@@ -66,7 +66,6 @@
         </div>
     </nav>
     <!-- End Navbar -->
-    <div class="page-header" filter-color="orange">
-        <div class="container">
-            <div class="section">
-                <div class="container">
+    <div class="container">
+        <div class="card" style="top: 80px;">
+            <div class="card-body">

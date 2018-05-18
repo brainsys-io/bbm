@@ -1,18 +1,18 @@
             </div>
         </div>
     </div>
-        <footer class="footer">
-            <div class="container">
-                <div class="copyright">
-                    &copy;
-                    <script>
-                        document.write(new Date().getFullYear())
-                    </script>, Coded by
-                    <a href="mailto:julien@marusi.fr" target="_blank">Jules</a>.
-                </div>
+
+    <footer class="footer" style="display: table-row; height: 50px;">
+        <div class="container">
+            <div class="copyright">
+                &copy;
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>, Coded by
+                <a href="mailto:julien@marusi.fr" target="_blank">Jules</a>.
             </div>
-        </footer>
-    </div>
+        </div>
+    </footer>
 </body>
 
 <!--   Core JS Files   -->
